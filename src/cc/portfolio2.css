@@ -1,0 +1,153 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-color: #000000; 
+    color: white;
+    padding: 20px;
+  }
+  
+ #skill{
+  margin-top: -220px;
+ }
+  #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #000000;
+    border-radius: 10px;
+  }
+  
+  #logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00b4d8;
+    display: flex;
+    align-items: center;
+  }
+  
+  #logo::before {
+    content: "<PORTFOLIO/>";
+    color: #00b4d8;
+    margin-right: 5px;
+  }
+  
+  #nav-links {
+    display: flex;
+    gap: 30px;
+  }
+  button{
+    background-color: #00b4d8;
+    color: #000000;
+    border-radius: 30px;
+    padding: 15px;
+  }
+  #bb1{
+  width: 250px;
+  margin-left: 150px;
+  }
+  
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #00b4d8;
+  }
+  
+ 
+  #name1{
+  
+    margin-top: 50px;
+    padding: 50px;
+    background-color: #000000;
+    border-radius: 10px;
+  }
+
+  #name {
+    max-width: 50%;
+  }
+  
+  #name h1 {
+    font-size: 40px;
+    color: white;
+  }
+  
+  #name p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #a9a9a9;
+  }
+  
+
+  #side {
+    max-width: 80%;
+    margin-top: 40px;
+    
+   
+    gap: 20px;
+  }
+  
+  .abw {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .abw h2 {
+    font-size: 20px;
+    color: white;
+  }
+  
+  .abw p {
+    font-size: 16px;
+    color: #a9a9a9;
+    margin-top: 10px;
+  }
+  
+  .abw a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #00b4d8;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .abw a:hover {
+    text-decoration: underline;
+  }
+  #pp2{
+    margin-top: 20px;
+  }
+  #pp1{
+    margin-top: 40px;
+  }
+  
+
+  #footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #000000;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  #footer a {
+    color: #00b4d8;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  #footer a:hover {
+    color: white;
+  }
