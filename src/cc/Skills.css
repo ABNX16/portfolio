@@ -46,10 +46,19 @@
 .skills-container:hover {
   color: #61dafb;
 } */
- img{
+ /* img{
   height: 100px;
   width: 100px;
- }
- #all{
+ } */
+ #sk {
   margin-top: 150px;
- }
+  margin-left: 620px;
+}
+
+@media screen and (max-width: 768px) {
+  #sk {
+      margin-top: 200px;
+      margin-left: auto;
+      text-align: center;
+  }
+}

@@ -38,17 +38,28 @@ import React from 'react'
 import Portfolio from './cc/Portfolio2'
 
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
-import AboutPage from './cc/AboutPage'
+
 import Portfolio2 from './cc/Portfolio2'
-import Skill from './cc/Skills'
+import Skills from './cc/Skills'
+import Works from './cc/Works'
+import Nav from './cc/Nav'
+import About from './cc/About'
+import ContactForm from './cc/Contact'
+
 function App() {
   return (
     <div>
       <Router>
         <Routes>
           <Route path='/' element={ <Portfolio2/>}/>
-          <Route path='/about' element={<AboutPage/>}/>
-          <Route path='/skill' element={<Skill/>}/>
+          <Route path='/about' element={<About/>}/>
+          <Route path='/skill' element={<Skills/>}/>
+          <Route path='/works' element={<Works/>}/>
+          <Route path='/home' element={<Portfolio2/>}/>
+          <Route path='/contact' element={<ContactForm/>}/>
+          <Route path='/nav' element={<Nav/>}/>
+
+
 
         </Routes>
       </Router>
