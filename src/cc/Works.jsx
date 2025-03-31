@@ -138,13 +138,13 @@ const apps = [
     name: "Appointment Form",
     description: "Schedule your Doctor's appointments",
     icon: "https://static.thenounproject.com/png/1072808-200.png",
-    path: './apt'
+    path: '/apt'
   },
   {
     name: "Counting App",
     description: "Keep track of numbers",
     icon: "https://cdn-icons-png.flaticon.com/512/6134/6134688.png",
-    path: './cot'
+    path: '/cot'
   },
 ];
 
