@@ -52,13 +52,16 @@
  } */
  #sk {
   margin-top: 150px;
-  margin-left: 620px;
+
+  
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 968px) {
   #sk {
-      margin-top: 200px;
-      margin-left: auto;
-      text-align: center;
+      margin-top: 100px;
+    
+      color: white;
+    
   }
 }
+

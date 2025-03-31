@@ -45,6 +45,11 @@ import Works from './cc/Works'
 import Nav from './cc/Nav'
 import About from './cc/About'
 import ContactForm from './cc/Contact'
+import Footer from './cc/Footer'
+import Footer2 from './cc/Footer2'
+import Calculator from './cc/Calculator'
+import Apt from './cc/Apt'
+import Count from './cc/Count'
 
 function App() {
   return (
@@ -58,6 +63,12 @@ function App() {
           <Route path='/home' element={<Portfolio2/>}/>
           <Route path='/contact' element={<ContactForm/>}/>
           <Route path='/nav' element={<Nav/>}/>
+          <Route path='/footer2' element={<Footer2/>}/>
+          <Route path='/cal' element={<Calculator/>}/>
+          <Route path='/apt' element={<Apt/>}/>
+          <Route path='/cot' element={<Count/>}/>
+
+
 
 
 

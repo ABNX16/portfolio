@@ -98,6 +98,9 @@
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     text-align: center;
+   margin-top: 10px;
+  
+  
 }
 
 .contact-title {
@@ -105,12 +108,17 @@
     font-size: 24px;
     margin-bottom: 20px;
     font-weight: bold;
+  
 }
 
 #all {
     background-color: black;
+   
+  
 }
-
+#coq{
+  margin-top: 20px;
+}
 .contact-input, .contact-textarea {
     width: 100%;
     padding: 12px;
@@ -120,10 +128,16 @@
     border: 2px solid white;
     border-radius: 5px;
     font-size: 16px;
+    
+}
+#hed{
+ 
+  padding-top: 100px;
 }
 
 .contact-textarea {
     resize: none;
+   
 }
 
 #bbt {
@@ -140,6 +154,7 @@
     transition: background 0.3s ease;
     display: block;
     margin: 30px auto 0;
+  
 }
 
 #bbt:hover {
@@ -172,4 +187,44 @@
     #bbt {
         max-width: 120px;
     }
+}
+@keyframes fallFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+input, textarea, button {
+  animation: fallFromTop 0.6s ease-out forwards;
+}
+
+#hed {
+  animation: fallFromTop 0.6s ease-out forwards;
+  animation-delay: 0s;
+}
+
+/* Name input - no delay */
+#name22 {
+  animation-delay: 0s;
+}
+
+#email {
+  animation-delay: 0.3s;
+}
+
+#number {
+  animation-delay: 0.5s;
+}
+
+#des {
+  animation-delay: 0.7s;
+}
+
+#bbt {
+  animation-delay: 0.9s;
 }
