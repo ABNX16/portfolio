@@ -1,9 +1,10 @@
-Reset styles
+/* Reset Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    width: auto;
 }
 
 /* Header Styles */
@@ -11,10 +12,11 @@ Reset styles
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 50px;
+    padding: 10px 50px;
     background-color: #000;
     border-radius: 10px;
     width: 100%;
+    position: relative;
 }
 
 /* Logo */
@@ -29,6 +31,8 @@ Reset styles
 #nav-links {
     display: flex;
     gap: 30px;
+    justify-content: flex-end;
+    width: auto;
 }
 
 .nav-link {
@@ -42,7 +46,17 @@ Reset styles
     color: #00b4d8;
 }
 
-/* Responsive Design */
+/* Button to toggle nav links */
+.nav-toggle-btn {
+    display: none;
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Responsive Design for Tablets and Smaller Screens */
 @media screen and (max-width: 1024px) {
     #header {
         flex-direction: column;
@@ -54,9 +68,16 @@ Reset styles
         flex-direction: column;
         gap: 10px;
         margin-top: 10px;
+        display: none; /* Initially hidden */
+        width: 100%;
+    }
+
+    #nav-links.open {
+        display: flex; /* Show when the open class is added */
     }
 }
 
+/* Mobile Responsiveness */
 @media screen and (max-width: 768px) {
     #header {
         padding: 15px;
@@ -65,15 +86,32 @@ Reset styles
     #nav-links {
         flex-direction: column;
         align-items: center;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    #logo {
-        font-size: 20px;
+        justify-content: center;
+        width: 100%;
+        padding: 0 20px;
     }
 
     .nav-link {
         font-size: 14px;
+    }
+
+    .nav-toggle-btn {
+        display: block;
+    }
+
+    #logo {
+        font-size: 20px;
+    }
+}
+
+/* Extra small screens (Mobile) */
+@media screen and (max-width: 480px) {
+    #logo {
+        font-size: 16px;
+    }
+
+    .nav-link {
+        font-size: 12px;
+        padding: 5px 0;
     }
 }
