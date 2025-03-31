@@ -118,6 +118,9 @@
 // export default Works;
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import Apt from "./Apt";
+import Calculator from "./Calculator";
+import Count from "./Count";
 import './work.css';
 import Nav from "./Nav";
 import Footer2 from "./Footer2";
